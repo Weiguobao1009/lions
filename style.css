@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+ font-family: 'Montserrat';
+}
+
+body {
+  margin: 0;
+}
+
+/* Set up navigation bar */
+nav {
+  background-color: #006eff ;
+  padding: 1.001em;
+}
+
+nav a {
+  color:chocolate;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color:#706666;
+  font-style: italic;
+}
+
+header, main {
+  background-color:#9f2fee; 
+  padding: 0.9em;
+}
+
+h1, h2, p,ul {
+  margin: 0;
+}
+
+/** Make sections look nice **/
+main section {
+  background-color: #cd2d82;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1.5px;
+  border-color:# yellow;
+  padding: 1em 2em;
+  margin: 1em 0;
+}
+
+/* For image pork slider */
+.arrow { /* Class starts with . */
+  border: solid yellow;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 20px
+}
+
+.left {
+  transform: rotate(135deg);
+}
+
+.right {
+  transform: rotate(-45deg);
+}
+
+#image-slider {
+  align-items: center;
+  display: flex;
+}
+
+/* Change facts to bubbles */
+#facts {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  gap: 0.6em;
+}
+
+#facts li {
+  background-color: #095809;
+  border: 1.5px solid black;
+  border-radius: 18px;
+  padding: 0.3em;
+}
+
+#facts li:nth-child(2n) {
+  background-color: #bebe3c;
+}
